@@ -41,9 +41,9 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #http://github.com/cdeterman
-  stackoverflow: #http://stackoverflow.com/users/3204250/cdeterman
-  linkedin: #http://www.linkedin.com/pub/charles-determan-jr
+  github: http://github.com/cdeterman
+  stackoverflow: http://stackoverflow.com/users/3204250/cdeterman
+  linkedin: http://www.linkedin.com/pub/charles-determan-jr
   xing: #username
   instagram: #username
   lastfm: #username
