@@ -2,8 +2,8 @@
 
 title:            My Simple Programming Blog
 locale:           en_US
-#url:              http://cdeterman.github.io
-url:              http://localhost:4000
+url:              http://cdeterman.github.io
+#url:              http://localhost:4000
 
 
 # Jekyll configuration
