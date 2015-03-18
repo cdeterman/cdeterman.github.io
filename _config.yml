@@ -1,0 +1,61 @@
+# Site wide configuration
+
+title:            My Simple Programming Blog
+locale:           en_US
+#url:              http://cdeterman.github.io
+url:              http://localhost:4000
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Charles Determan
+  avatar: bio-photo.jpg
+  bio: "Just another programmer trying to do some good"
+  email: 
+  disqus-shortname: 
+  twitter: #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: #http://github.com/cdeterman
+  stackoverflow: #http://stackoverflow.com/users/3204250/cdeterman
+  linkedin: #http://www.linkedin.com/pub/charles-determan-jr
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
